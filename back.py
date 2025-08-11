@@ -77,8 +77,6 @@ def login(driver):
         logger.error(f"Erro durante o login: {str(e)}")
         raise
 
-# Funções de navegação e clique removidas - agora usa Selenium nativo
-
 def copy_field_value(driver, element):
     """Copia o valor de um campo usando JavaScript"""
     try:
